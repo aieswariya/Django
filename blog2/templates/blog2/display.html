@@ -1,0 +1,10 @@
+{% if obj %}
+  {% for k in obj %}
+    {{ k.name }}<br>
+    {{k.account_number}}<br>
+    {{k.ifsc}}<br> 
+    {{k.payment_type}}<br>
+    <hr>
+  {% endfor %}
+{% endif %}
+     
